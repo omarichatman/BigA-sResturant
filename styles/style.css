@@ -10,6 +10,7 @@ html, body, main {
     /*color: white;*/
 /*}*/
 
+
 .link:hover {
     /*background-color: white;*/
     color: white;
@@ -81,8 +82,10 @@ html, body, main {
     min-height: 20%;
 }
 
-/*.contact-bg {*/
-
+/*#gradient {*/
+    /*background: linear-gradient(blue, deepskyblue);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 /*}*/
 
 .transition {
@@ -128,7 +131,15 @@ html, body, main {
     text-shadow: 2px 2px 2px red,
     6px 6px 6px white;
 }
-
+.redFade {
+    text-shadow: 2px 2px 2px red,
+    6px 6px 6px red;
+}
+.blueWhiteFade {
+    color: white;
+    text-shadow: 2px 2px 2px rgb(2, 48, 122),
+    6px 6px 6px rgb(2, 48, 122);
+}
 .blackFade {
     text-shadow: 0 4px 3px rgba(0,0,0,1),
     0 8px 13px rgba(0,0,0,1),
@@ -189,7 +200,7 @@ html, body, main {
 
 #form-box {
     margin-top: 10%;
-    background-color: rgba(2, 48, 122, 0.7);
+    background-color: rgba(2, 48, 122, 0.9);
     padding: 20px 20px;
 }
 #contact-bg {
@@ -231,4 +242,9 @@ html, body, main {
 #menu-img {
     width: 300px;
     height: 700px;
+}
+
+.menu-header {
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
 }
