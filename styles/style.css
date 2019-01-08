@@ -2,7 +2,6 @@
 html, body, main {
     height: 100%;
     width: 100%;
-
 }
 
 .link:hover {
@@ -81,12 +80,6 @@ div hr.style13 {
     min-height: 20%;
 }
 
-/*#gradient {*/
-    /*background: linear-gradient(blue, deepskyblue);*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
-
 .transition {
     color: white;
     background-color: rgb(2, 48, 122);
@@ -126,6 +119,11 @@ div hr.style13 {
     color: rgb(250, 250, 0);
 }
 
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
 .redWhiteFade {
     text-shadow: 2px 2px 2px red,
     6px 6px 6px white;
@@ -144,11 +142,7 @@ div hr.style13 {
     0 8px 13px rgba(0,0,0,1),
     0 8px 13px rgba(0,0,0,1),
     0 18px 23px rgba(0,0,0,1);
-}
-
-.oswald {
-    font-family: 'Oswald', sans-serif;
-    color: white;
+    color: red;
 }
 
 .subtitle {
